@@ -1,0 +1,111 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set global font to Oswald */
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Set full height for html and body */
+html,
+body {
+    height: 100%;
+}
+
+/* Button styles */
+button {
+    background-color: lightblue;
+    color: white;
+    font-size: 2rem; /* Updated font size */
+    width: 300px; /* Updated width */
+    cursor: pointer;
+    border: none;
+    padding: 15px 30px; /* Updated padding */
+}
+
+button:hover {
+    background-color: lightgreen;
+    color: black;
+}
+button:disabled {
+    opacity: 0.6; /* Updated opacity */
+    cursor: not-allowed;
+}
+/* Container styles */
+.container {
+    width: 70%; /* Updated width */
+    margin: 100px auto; /* Updated margin */
+    padding: 30px; /* Updated padding */
+    height: 70vh; /* Updated height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contact styles */
+.contact {
+    height: 15%; /* Updated height */
+    width: 90%; /* Updated width */
+    background-color: lightblue;
+    border: 2px solid black;
+    margin-bottom: 0.5rem; /* Updated margin */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem; /* Updated font size */
+    font-weight: bold;
+}
+
+.contact:hover {
+    background-color: lightgreen;
+}
+
+/* Input styles */
+.input {
+    font-size: 1.2rem; /* Updated font size */
+    height: 50px; /* Updated height */
+    background-color: lightgray;
+    color: black;
+    width: 90%; /* Updated width */
+    margin-bottom: 0.5rem; /* Updated margin */
+}
+
+/* Form styles */
+.form {
+    height: 120px; /* Updated height */
+    width: 50%; /* Updated width */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Contacts styles */
+.contacts {
+    width: 100%; /* Updated width */
+    margin-bottom: 70px; /* Updated margin */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Controls wrapper styles */
+.controls-wrapper {
+    display: flex;
+    height: 100%;
+}
+
+/* List container inside contacts */
+.contacts .list-container {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid black;
+    height: 400px; /* Updated height */
+    overflow-y: scroll;
+}
